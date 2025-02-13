@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 
-int whomai() {
+int who_am_i() {
     return 2;
 }
 
@@ -11,9 +11,9 @@ int operation(int a, int b) {
 }
 
 void load() {
-    puts("Multiplication module loaded")
+    puts("Multiplication module loaded");
 }
 
 void unload() {
-    puts("Multiplication module un-loaded")
+    puts("Multiplication module un-loaded");
 }

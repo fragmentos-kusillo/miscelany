@@ -1,9 +1,9 @@
-#ifndef api_h__
-#define api_h__
+#ifndef addition_h__
+#define addition_h__
  
 extern int who_am_i(void);
 extern int operation(int, int);
 extern void load(void);
 extern void unload(void);
  
-#endif  // api_h_
+#endif  // addition_h_
