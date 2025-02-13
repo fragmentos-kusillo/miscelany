@@ -1,8 +1,12 @@
 #!/usr/local/bin/elvish
 
+# 1. position independent compilation              gcc -c -Wall -Werror -fpic foo.c
+# 2. creation of shared library from object file   gcc -shared -o libfoo.so foo.o
+# 3. linking with shared library                   gcc -Wall -o test main.c -lfoo
+
 set E:LD_LIBRARY_PATH = (pwd)
 
-gcc -c -Wall -Werror -fpic addition.c
+gcc -c -Wall -Werror -fpic addition.c 
 gcc -shared -o lib0.so addition.c
 
 gcc -c -Wall -Werror -fpic substraction.c
