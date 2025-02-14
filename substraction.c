@@ -7,7 +7,7 @@ int who_am_i() {
 }
 
 int operation(int a, int b) {
-    return a + b;
+    return a - b;
 }
 
 void load() {
