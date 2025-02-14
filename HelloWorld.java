@@ -19,10 +19,7 @@ class HelloWorld {
         System.out.println(output);
         byte[] outputByte = HelloWorld.helloByte("byte".getBytes());
         System.out.println(outputByte);
-
-
         HelloWorld.factAndCallMeBack(6, new HelloWorld());
-
         long counter_ptr = counterNew(new HelloWorld());
 
         for (int i = 0; i < 5; i++) {
