@@ -15,7 +15,7 @@ class HelloWorld {
 
     public static void main(String[] args) {
 
-        String output = HelloWorld.hello("josh");
+        String output = HelloWorld.hello("Santiago");
         System.out.println(output);
         byte[] outputByte = HelloWorld.helloByte("byte".getBytes());
         System.out.println(outputByte);

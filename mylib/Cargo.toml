@@ -5,7 +5,8 @@ authors = ["Josh Chase <josh@prevoty.com>"]
 edition = "2021"
 
 [dependencies]
-jni = { path = "../../" }
+jni = "0.21.1"
+
 
 [lib]
 crate_type = ["cdylib"]
